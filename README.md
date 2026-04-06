@@ -9,12 +9,25 @@ Proyecto del curso **Fundamentos de .NET** - Platzi
 dotnet run
 
 ## Estructura del proyecto
-
+```
 InventarioApp/
-- Program.cs # Punto de entrada
-- InventarioApp.csproj # Configuración
-- .gitignore # Archivos ignorados por Git
-- src/
+├── Program.cs
+├── InventarioApp.csproj
+├── .gitignore
+├── README.md
+└── src/
+    ├── Models/
+    │   ├── CategoriaProducto.cs  (enum)
+    │   ├── EstadoProducto.cs     (enum)
+    │   ├── Producto.cs           (class con validación)
+    │   └── Proveedor.cs          (record)
+    └── Factories/
+        └── ProductoFactory.cs    (creación validada)
+```
 
 ## Progreso del curso
-- [X] Módulo 1: El ecosistema .NET
+- [x] Módulo 1: El Ecosistema .NET
+- [x] Módulo 2: Entradas, Salidas y Tipos
+- [x] Módulo 3: Funciones y Modelado de Dominio
+- [ ] Módulo 4: Colecciones y LINQ
+- [ ] Módulo 5: Archivos y Procesamiento
