@@ -1,8 +1,16 @@
 ﻿using InventarioApp.Factories;
 using InventarioApp.Repositories;
 using InventarioApp.Models;
+using InventarioApp.Infrastucture;
 
 Console.WriteLine("=== InventarioApp ===");
+
+var fileManager = new Filemanager();
+string contenido = "Inventario actualizado";
+fileManager.Escribir("inventario.txt", contenido);
+
+string leerContenido = fileManager.Leer("inventario.txt");
+Console.WriteLine(contenido);
 
 var repositorio = new InMemoryProductoRepository();
 
