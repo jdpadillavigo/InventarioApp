@@ -29,5 +29,5 @@ InventarioApp/
 - [x] Módulo 1: El Ecosistema .NET
 - [x] Módulo 2: Entradas, Salidas y Tipos
 - [x] Módulo 3: Funciones y Modelado de Dominio
-- [ ] Módulo 4: Colecciones y LINQ
+- [x] Módulo 4: Colecciones y LINQ
 - [ ] Módulo 5: Archivos y Procesamiento

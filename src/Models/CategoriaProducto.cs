@@ -2,11 +2,12 @@ namespace InventarioApp.Models;
 
 public enum CategoriaProducto
 {
-    Electrónica,
+    Electronica,
     Ropa,
     Alimentos,
     Hogar,
     Deportes,
     Libros,
+    Muebles,
     Otros
 }
