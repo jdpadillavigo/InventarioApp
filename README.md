@@ -30,4 +30,4 @@ InventarioApp/
 - [x] Módulo 2: Entradas, Salidas y Tipos
 - [x] Módulo 3: Funciones y Modelado de Dominio
 - [x] Módulo 4: Colecciones y LINQ
-- [ ] Módulo 5: Archivos y Procesamiento
+- [x] Módulo 5: Archivos y Procesamiento

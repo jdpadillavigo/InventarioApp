@@ -1,0 +1,12 @@
+[
+  {
+    "Id": 1,
+    "Nombre": "Mac",
+    "Precio": 1000,
+    "Cantidad": 4,
+    "Categoria": "Electronica",
+    "Estado": "Activo",
+    "FechaRegistro": "2026-04-12T01:56:13.9535182-05:00",
+    "ValorTotal": 4000
+  }
+]
