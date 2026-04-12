@@ -2,21 +2,61 @@
   {
     "Id": 1,
     "Nombre": "Laptop",
-    "Precio": 999.99,
-    "Cantidad": 10,
+    "Precio": 1200.00,
+    "Cantidad": 3,
     "Categoria": "Electronica",
     "Estado": "Activo",
-    "FechaRegistro": "2026-04-11T21:10:02.0772845-05:00",
-    "ValorTotal": 9999.90
+    "FechaRegistro": "2026-04-11T21:23:02.5538923-05:00",
+    "ValorTotal": 3600.00
   },
   {
     "Id": 2,
-    "Nombre": "Camiseta",
-    "Precio": 19.99,
-    "Cantidad": 50,
+    "Nombre": "Camisa",
+    "Precio": 45.00,
+    "Cantidad": 15,
     "Categoria": "Ropa",
     "Estado": "Activo",
-    "FechaRegistro": "2026-04-11T21:10:02.0831349-05:00",
-    "ValorTotal": 999.50
+    "FechaRegistro": "2026-04-11T21:23:02.5539065-05:00",
+    "ValorTotal": 675.00
+  },
+  {
+    "Id": 3,
+    "Nombre": "Arroz",
+    "Precio": 12.00,
+    "Cantidad": 50,
+    "Categoria": "Alimentos",
+    "Estado": "Activo",
+    "FechaRegistro": "2026-04-11T21:23:02.5539067-05:00",
+    "ValorTotal": 600.00
+  },
+  {
+    "Id": 4,
+    "Nombre": "L\u00E1mpara",
+    "Precio": 35.00,
+    "Cantidad": 2,
+    "Categoria": "Hogar",
+    "Estado": "Activo",
+    "FechaRegistro": "2026-04-11T21:23:02.5539069-05:00",
+    "ValorTotal": 70.00
+  },
+  {
+    "Id": 5,
+    "Nombre": "Bal\u00F3n",
+    "Precio": 25.00,
+    "Cantidad": 8,
+    "Categoria": "Deportes",
+    "Estado": "Activo",
+    "FechaRegistro": "2026-04-11T21:23:02.553907-05:00",
+    "ValorTotal": 200.00
+  },
+  {
+    "Id": 6,
+    "Nombre": "Mesa",
+    "Precio": 150.00,
+    "Cantidad": 4,
+    "Categoria": "Muebles",
+    "Estado": "Activo",
+    "FechaRegistro": "2026-04-11T21:23:02.5539084-05:00",
+    "ValorTotal": 600.00
   }
 ]

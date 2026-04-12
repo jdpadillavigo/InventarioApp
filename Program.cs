@@ -1,33 +1,35 @@
 ﻿using InventarioApp.Models;
 using InventarioApp.Infrastructure;
+using InventarioApp.Factories;
 using System.Text.Json;
-
-Console.WriteLine(" === Prueba integración JSON === ");
 
 var almacenamiento = new JsonInventarioStorage();
 
-var productos = new List<Producto>()
+var productos = new List<Producto>
 {
-    new Producto
-    {
-        Id = 1,
-        Nombre = "Laptop",
-        Precio = 999.99m,
-        Cantidad = 10,
-        Categoria = CategoriaProducto.Electronica,
-        Estado = EstadoProducto.Activo
-    },
-
-    new Producto
-    {
-        Id = 2,
-        Nombre = "Camiseta",
-        Precio = 19.99m,
-        Cantidad = 50,
-        Categoria = CategoriaProducto.Ropa,
-        Estado = EstadoProducto.Activo
-    }
+    ProductoFactory.Crear(nombre: "Laptop", precio: 1200.00m, cantidad: 3, CategoriaProducto.Electronica),
+    ProductoFactory.Crear(nombre: "Camisa", precio: 45.00m, cantidad: 15, CategoriaProducto.Ropa),
+    ProductoFactory.Crear(nombre: "Arroz", precio: 12.00m, cantidad: 50, CategoriaProducto.Alimentos),
+    ProductoFactory.Crear(nombre: "Lámpara", precio: 35.00m, cantidad: 2, CategoriaProducto.Hogar),
+    ProductoFactory.Crear(nombre: "Balón", precio: 25.00m, cantidad: 8, CategoriaProducto.Deportes),
+    ProductoFactory.Crear(nombre: "Mesa", precio: 150.00m, cantidad: 4, CategoriaProducto.Muebles)
 };
+
+var generador = new GeneradorReportes(productos);
+
+Console.WriteLine(generador.GenerarResumen());
+Console.WriteLine("\n");
+
+Console.WriteLine(generador.GenerarReporteStockBajo());
+Console.WriteLine("\n");
+
+Console.WriteLine(generador.GenerarTopProductos());
+Console.WriteLine("\n");
+
+Console.WriteLine(generador.ExportarCsv());
+Console.WriteLine("\n");
+
+Console.WriteLine(generador.ExportarResumenJson());
 
 string ruta = "inventario_test.json";
 
