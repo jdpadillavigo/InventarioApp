@@ -1,0 +1,22 @@
+[
+  {
+    "Id": 1,
+    "Nombre": "Laptop",
+    "Precio": 999.99,
+    "Cantidad": 10,
+    "Categoria": "Electronica",
+    "Estado": "Activo",
+    "FechaRegistro": "2026-04-11T21:10:02.0772845-05:00",
+    "ValorTotal": 9999.90
+  },
+  {
+    "Id": 2,
+    "Nombre": "Camiseta",
+    "Precio": 19.99,
+    "Cantidad": 50,
+    "Categoria": "Ropa",
+    "Estado": "Activo",
+    "FechaRegistro": "2026-04-11T21:10:02.0831349-05:00",
+    "ValorTotal": 999.50
+  }
+]
